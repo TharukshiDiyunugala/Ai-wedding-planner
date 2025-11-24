@@ -1,0 +1,33 @@
+{
+  "name": "ai-wedding-planner-backend",
+  "version": "1.0.0",
+  "description": "Backend API for AI Wedding Planner",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "echo 'No build step required'",
+    "seed": "node seedDatabase.js"
+  },
+  "keywords": [
+    "wedding",
+    "ai",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "dotenv": "^16.4.1",
+    "cors": "^2.8.5",
+    "openai": "^4.28.0",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
